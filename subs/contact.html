@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--
+                         
+ ;ffffffffffffffffffffff 
+ ;ft                     
+ ;ft  ,;;;;;;;;;;;;;;;;; 
+ ;ft  ;ffttttttttttttttt 
+ ;ft                  
+ ;ffffffffffffffffffffff 
+      ;ft                
+ ,.,  ;ft::::::::::::::: 
+ ;ft  ;fffffffffffffffff 
+ ;ft                 :ff 
+ ;ffffffffffffffffffffff 
+                         
+      Coded by Chans
+-->
+<!--Bootstrap을 활용해서 제작한 사이트 입니다.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>착한사람에게만 보이는 연락처</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" href="../fonts/typo_ssang/style.css">
+    <link rel="stylesheet" href="../css/simple-line-icons.css">
+    <link rel="stylesheet" href="../css/perfect-scrollbar.css">
+
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/perfect-scrollbar.jquery.js"></script>
+    <!--favicon 시작-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!--favicon 종료-->
+</head>
+
+<body class="container-fluid">
+    <!--헤더 영역입니다.-->
+    <header class="col-xs-12 col-md-2 col-lg-2 left_area">
+        <!--로고 영역입니다.-->
+        <h1 id="logo">
+            <a href="../index.html"><img src="../img/logo_header.png" alt="Chans의 로고"></a>
+        </h1>
+        <!--메뉴 영역입니다.-->
+        <span class="mob_nav" data-icon="&#xe034;"></span>
+        <nav>
+            <ul class="list-unstyled typo_kor typo_s">
+                <li><a href="../index.html">포트폴리오</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="contact.html">연락처</a></li>
+                <li><a href="http://chansdesign.tistory.com/">블로그</a></li>
+                <li><a href="https://github.com/chanspark">깃허브</a></li>
+            </ul>
+        </nav>
+        <!--텍스트 애니메이션 영역입니다.-->
+        <aside>
+            <p class="typo_kor typo_b">#<span id="textAnimation"></span><span class="blinkingCursor">|</span></p>
+        </aside>
+    </header>
+    <!--메인 영역입니다.-->
+    <main class="col-md-10 col-lg-10">
+        <!--contact 영역입니다.-->
+        <section id="contact" class="col-md-12">
+            <h2 class="col-md-12 typo_kor typo_m" id="top">착한사람에게만 보이는 연락처</h2>
+            <!--코드 입력 영역입니다.-->
+            <article>
+                <h4 class="typo_kor_noto"><code>console</code>창에서 <code>getMyNum</code> 함수를 입력후 생성된 번호를 아래에 입력하세요.</h4>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="코드를 입력하세요." id="rInput" class="form-control">
+                    </div>
+                    <button type="submit" class="contact_btn" id="rSubmit">보기</button>
+                </form>
+            </article>
+            <!--정답 영역입니다.-->
+            <article clas="contact_ans">
+                <dl>
+                    <dt>MOBILE</dt>
+                    <dd id="mobileNum" class="typo_32"> get the code</dd>
+                    <dt>EMAIL</dt>
+                    <dd id="emailAdd" class="typo_32 contact_reset"> to view my info :)</dd>
+                </dl>
+                <img src="../img/logo_contact.png" alt="chans 로고 이미지" id="contact_logo">
+            </article>
+        </section>
+        <!--푸터 영역입니다.-->
+        <footer class="col-md-12">
+            <a href="#" id="goTop"><span class="typo_32" data-icon="&#xe078;"></span></a>
+            <!--저작권 영역입니다.-->
+            <strong class="copyright">COPYRIGHT 2016 CHAN SOO PARK. ALL RIGHTS RESERVED</strong>
+            <em>사이트 내 모든 디자인 및 소스코드에 대한 권리는 해당 저작권자에게 있습니다. <span>
+타인의 저작물을 불법적으로 이용시에는 제재가 가해질 수 있습니다.</span></em>
+        </footer>
+    </main>
+    <script src="../js/style.js"></script>
+</body>
+<!---->
+<!--jQuery plugin credits-->
+<!--Perfect Scroll JS plugin by noraesae https://github.com/noraesae/perfect-scrollbar-->
+<!--Perfect Scroll JS is under The MIT License (MIT) Copyright (c) 2016 Hyunje Alex Jun and other contributors.-->
+<!---->
+
+</html>

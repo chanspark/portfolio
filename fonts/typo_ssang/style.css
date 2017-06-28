@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Typo_SsangmunDong_B';
+  src: url('Typo_SsangmunDong_B.eot');
+  src: url('Typo_SsangmunDong_B.woff2') format('woff2'),
+       url('Typo_SsangmunDong_B.woff') format('woff'),
+       url('Typo_SsangmunDong_B.ttf') format('truetype'),
+       url('Typo_SsangmunDong_B.svg#Typo_SsangmunDong_B') format('svg'),
+       url('Typo_SsangmunDong_B.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

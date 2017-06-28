@@ -1,1 +1,1038 @@
-hello it's chans' blog
+<!DOCTYPE html>
+<html lang="ko">
+<!--
+                         
+ ;ffffffffffffffffffffff 
+ ;ft                     
+ ;ft  ,;;;;;;;;;;;;;;;;; 
+ ;ft  ;ffttttttttttttttt 
+ ;ft                  
+ ;ffffffffffffffffffffff 
+      ;ft                
+ ,.,  ;ft::::::::::::::: 
+ ;ft  ;fffffffffffffffff 
+ ;ft                 :ff 
+ ;ffffffffffffffffffffff 
+                         
+      Coded by Chans
+-->
+<!--Bootstrap을 활용해서 제작한 사이트 입니다.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chans의 포트폴리오</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="fonts/typo_ssang/style.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/perfect-scrollbar.jquery.js"></script>
+    <!--favicon 시작-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!--favicon 종료-->
+</head>
+
+<body class="container-fluid">
+    <!--헤더 영역입니다.-->
+    <header class="col-xs-12 col-md-2 col-lg-2 left_area">
+        <!--로고 영역입니다.-->
+        <h1 id="logo">
+            <a href="index.html"><img src="img/logo_header.png" alt="Chans 로고 마크"></a>
+        </h1>
+        <!--메뉴 영역입니다.-->
+        <span class="mob_nav" data-icon="&#xe034;"></span>
+        <nav>
+            <ul class="list-unstyled typo_kor typo_s">
+                <li><a href="index.html">포트폴리오</a></li>
+                <li><a href="subs/about.html">소개</a></li>
+                <li><a href="subs/contact.html">연락처</a></li>
+                <li><a href="http://chansdesign.tistory.com/">블로그</a></li>
+                <li><a href="https://github.com/chanspark">깃허브</a></li>
+            </ul>
+        </nav>
+        <!--텍스트 애니메이션 영역입니다.-->
+        <aside>
+            <p class="typo_kor typo_b">#<span id="textAnimation"></span><span class="blinkingCursor">|</span></p>
+        </aside>
+    </header>
+    <!--메인 영역입니다.-->
+    <main class="col-xs-12 col-md-10 col-lg-10">
+        <!--포트폴리오 영역입니다.-->
+        <section id="portfolio">
+            <h2 class=" col-md-12 typo_kor typo_m" id="top">프론트엔드 개발자 <span>포트폴리오</span> </h2>
+            <!--작품 리스트 영역입니다.-->
+            <ul class="list-unstyled">
+
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">DESIGN & DEVELOP</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>FUNDINGMOA</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>CROWD FUNDING SITE</dd>
+                        </dl>
+                        <button class="view_btn" value="16">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img16.jpg" class="img-responsive" alt="펀딩모아 웹 개발 및 디자인">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">DESIGN & DEVELOP</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>IVLY</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>KID'S MALL SITE</dd>
+                        </dl>
+                        <button class="view_btn" value="17">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img17.jpg" class="img-responsive" alt="펀딩모아 웹 개발 및 디자인">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">RESPONSIVE WEB</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>GREENPLUGGED FESTIVAL</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>FESTIVAL SITE</dd>
+                        </dl>
+                        <button class="view_btn" value="1">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img01.jpg" class="img-responsive" alt="그린플러그드 페스티벌 반응형 사이트 개발">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">ONLINE MALL(CAFE24)</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>BIKEPARK</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>BIKE SHOPPING MALL</dd>
+                        </dl>
+                        <button class="view_btn" value="2">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img02.jpg" class="img-responsive" alt="바이크파크 자전거 쇼핑몰 사이트 개발">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">WEB(GNUBOARD)</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>HAPPYKIDS</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>MULTILINGUAL SCHOOL</dd>
+                        </dl>
+                        <button class="view_btn" value="3">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img03.jpg" class="img-responsive" alt="해피키즈 어학원 웹사이트 개발">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>MARU180</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>STARTUP INCUBATOR</dd>
+                        </dl>
+                        <button class="view_btn" value="4">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img04.jpg" class="img-responsive" alt="마루180 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>JACKERY</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>MOBILE ACCESSORIES</dd>
+                        </dl>
+                        <button class="view_btn" value="5">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img05.jpg" class="img-responsive" alt="Jackery 모바일 악세서리 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>HANDWERKER</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>HANDMADE FURNITURES</dd>
+                        </dl>
+                        <button class="view_btn" value="6">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img06.jpg" class="img-responsive" alt="한트베르커 수제 가구 공방 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>MODESKA</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>OFFICE ACCESSORIES</dd>
+                        </dl>
+                        <button class="view_btn" value="7">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img07.jpg" class="img-responsive" alt="Modeska 오피스 웨어 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>PICTURE BLOCK</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>MOTION PICTURES</dd>
+                        </dl>
+                        <button class="view_btn" value="8">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img08.jpg" class="img-responsive" alt="Picture Block 스튜디오 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>BEEYE</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>MANAGEMENT TOOL</dd>
+                        </dl>
+                        <button class="view_btn" value="9">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img09.jpg" class="img-responsive" alt="Beeye 스타트업 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING CONCEPT</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>PLANETALK</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>CHATTING APP</dd>
+                        </dl>
+                        <button class="view_btn" value="10">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img10.jpg" class="img-responsive" alt="Planetalk 브랜딩 컨셉">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>BONYEASTIE</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>HONEY WINE BREWERY</dd>
+                        </dl>
+                        <button class="view_btn" value="11">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img11.jpg" class="img-responsive" alt="Bonyeastie 허니와인 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING CONCEPT</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>ATTI</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>MODERNIZED HANBOK</dd>
+                        </dl>
+                        <button class="view_btn" value="12">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img12.jpg" class="img-responsive" alt="아띠 브랜딩 컨셉">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>CR8TIVE</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>FASHION OUTLET</dd>
+                        </dl>
+                        <button class="view_btn" value="13">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img13.jpg" class="img-responsive" alt="CR8TIVE 아웃렛 브랜딩">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING CONCEPT</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>CLIPPR</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>LINK CLIPPING APP</dd>
+                        </dl>
+                        <button class="view_btn" value="14">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img14.jpg" class="img-responsive" alt="Clip 브랜딩 컨셉">
+                    </div>
+                </li>
+                <li class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="inner">
+                        <p class="portfolioLabel">BRANDING CONCEPT</p>
+                        <dl class="portfolioDesc">
+                            <dt>TITLE</dt>
+                            <dd>99DESIGNS</dd>
+                            <dt>DESCRIPTION</dt>
+                            <dd>DESIGN COMMUNITY</dd>
+                        </dl>
+                        <button class="view_btn" value="15">
+                            <span class="typo_24" data-icon="&#xe079;"></span>
+                        </button>
+                        <img src="img/img15.jpg" class="img-responsive" alt="99designs 브랜딩 컨셉">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--작품별 상세 설명 영역입니다. JS를 사용해 연동합니다.-->
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <!--            <a href="#" class="previews_btn" role="button"><span class="typo_24" data-icon="&#xe065;"></span></a>-->
+            <h2 class="pfTitle typo_eng">Greenplugged Festival<span class="typo_24">Responsive Web</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf01_02.png" alt="그린플러그드 페스티벌 반응형 예시 이미지">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>HTML5, CSS3, jQuery</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Team project - 50%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>ELAPSED TIME</dt>
+                    <dd class="">12 Days</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator, Brackets</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://pcswer.dothome.co.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">HTML5와 CSS3에 기반한 <span><strong class="highlightBar2">반응형 웹사이트</strong></span></h3>
+                    <p class="typo_kor_noto">한국디지털기업협회에서 수강중인 UI/UX기반 웹퍼블리셔 양성과정 에서 진행된 2차 프로젝트 입니다. 1차 프로젝트 후 HTML5 와 CSS3를 통해 최신 웹 표준을 익혔으며 모바일 기기가 중요한 medium중 하나로 사용되는 트렌드에 맞춰 반응형 사이트에 대해서도 교육받았습니다. 본 프로젝트는 팀 단위로 반응형 웹사이트 제작을 목표로 하였으며 총 3명의 팀원이 12일에 거쳐 제작하였고 저는 메인페이지 디자인 및
+                        개발을 맡았습니다.</p>
+                    <hr>
+                </article>
+                <article>
+                    <img class="img-responsive" src="img/pf01_03.png" alt="그린플러그드 페스티벌 웹사이트 웹, 태블릿, 스마트폰 디자인 목업">
+                    <h4 class="typo_kor_noto">"모든 스크린에서 동일한 정보 제공"</h4>
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">PLANNING</span>
+                    <h3 class="typo_kor_noto">모바일, 모바일을 위한<span><strong class="highlightBar2">페스티벌 사이트</strong></span></h3>
+                    <p class="typo_kor_noto"><a href="http://www.gpsfestival.com/">기존 그린플러그드 페스티벌 웹사이트</a>에서는 과도한 배경 이미지와 비디오 사용으로 인해 텍스트 가독성이 떨어지는 점과 모바일 환경을 배려하지 않은 점, 그리고 복잡한 정보설계가 가장 큰 문제점이었습니다. 이를 보완하기 위해 4.5:1의 명암 대비를 적용하고 반응형 사이트로 제작하여 모바일 환경을 지원하기로 하였습니다. <span>기획 회의 결과 HTML5와 CSS3를 사용해보기 위해 Javascript 및 jQuery 플러그인 사용은 최대한 지양하기로 합의를 보았으며(추후 Artists페이지에만 사용) CSS3 <code>transition</code>효과를 다양한 방법으로 활용하기로 하였습니다. 또한 채팅창을 활용해서 페스티벌에 참가하는 사용자들간 실시간으로 의견을 주고 받을 수 있는 시스템을 구축하기로 하였습니다.(현재 채팅창은 기한 만료로 사이트에 표시되지 않습니다.)</span>                        </p>
+                    <hr>
+                </article>
+                <article>
+                    <img class="img-responsive" src="img/pf01_04.png" alt="모바일 화면 메뉴, 소개, 티켓 화면 사진">
+                    <h4 class="typo_kor_noto">"좌측부터 메뉴화면&#40;checkbox&#41;, 소개화면&#40;line-clamp&#41;, 티켓화면&#40;svg&#41;"</h4>
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">DEVELOPMENT</span>
+                    <h3 class="typo_kor_noto">코드 한땀한땀 심혈을 기울인<span><strong class="highlightBar2">디테일</strong></span></h3>
+                    <p class="typo_kor_noto">팀원들과 Javascript를 사용하지 않기로 회의를 끝낸 상태에서 작업을 진행하다 보니 많은 문제점들을 발견할 수 있었습니다. 대표적으로 PC화면에서의 메뉴에서 모바일 화면의 햄버거형태 메뉴로 변환되는 과정을 CSS3로만 구현을 해야했습니다. 이 과정에서 <code>checkbox</code> 를 적극 활용하였고 덕분에 Javascript 없이 변환되는 메뉴를 구현할 수 있었습니다. 또한 컨텐츠간 구분을 명확히
+                        하기 위해 <code>background-position: fixed</code>속성의 배경 이미지를 사용하였고 그 위에
+                        <code>transform: skewY</code>와 <code>animation</code> 속성을 사용한 타이포그래피를 추가함으로써 즐겁고 동적인 느낌을 완성시킬 수 있었습니다.
+                    </p>
+                    <hr>
+                </article>
+                <div class="btn_wrap">
+                    <a href="http://pcswer.dothome.co.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                </div>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Bikepark<span class="typo_24">Cafe24 Online Mall</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf02_01.png" alt="바이크 파크 예시">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>HTML5, CSS3</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design &amp; Code - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>ELAPSED TIME</dt>
+                    <dd class="">8 Days</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator, Brackets, Cafe24 EC Hosting</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://pcswer1.cafe24.com/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">EC호스팅을 활용한<span><strong class="highlightBar2">자전거 쇼핑몰 웹사이트</strong></span></h3>
+                    <p class="typo_kor_noto">한국디지털기업협회에서 수강중인 UI/UX기반 웹퍼블리셔 양성과정 에서 진행된 과제 입니다. CAFE24 EC호스팅을 활용해 온라인 쇼핑몰 제작을 목표로 하였고 기존에 있던 스킨을 기획대로 맞추기 위해 메인페이지부터 상세페이지까지 대부분을 수정하였습니다.
+                    </p>
+                    <hr>
+                </article>
+                <article>
+                    <img class="img-responsive" src="img/pf02_02.png" alt="우측부터 서브페이지, 메인페이지, 상세페이지">
+                    <h4 class="typo_kor_noto">"우측부터 서브페이지, 메인페이지, 상세페이지"</h4>
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">PLANNING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2">빈티지, 레트로 감성의</strong></span>자전거 쇼핑몰</h3>
+                    <p class="typo_kor_noto">
+                        빈티지 스타일의 자전거인 픽시, 클래식, 미니벨로 라인의 자전거만 판매하는 사이트이기 때문에 전체적인 컨셉도 동일하게 설정하였습니다. 기존의 쇼핑몰 스킨에서 90% 변화를 주었으며 순수 HTML5와 CSS3로 작업하여 EC호스팅에서 제공하는 Javascript 외에 다른 플러그인은 사용하지 않았습니다.
+                        <span>전체 가로 폭은 1280px로 고정하였으며 메인페이지, 서브페이지, 상세페이지 까지 전체적인 요소를 재구성하였습니다. 각 요소들의 디자인적 부분만 재구성 하였기에 HTML을 모르는 일반 쇼핑몰 사장님들도 쉽게 제품을 업로드하고 수정할 수 있는점이 장점입니다.</span>
+                    </p>
+                    <hr>
+                </article>
+                <article>
+                    <img class="img-responsive" src="img/pf02_03.png" alt="기존 스킨과 비교 이미지">
+                    <h4 class="typo_kor_noto">"기존 스킨의 90% 수정하였습니다."</h4>
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">DEVELOPMENT</span>
+                    <h3 class="typo_kor_noto">솔루션이라는 제약을<span><strong class="highlightBar2">무너뜨리다</strong></span></h3>
+                    <p class="typo_kor_noto">
+                        작업중 가장 힘들었던 부분은 EC호스팅이라는 솔루션 내의 모든 기능을 적극적으로 활용할 수 있게 하며 동시에 기존의 레이아웃을 변경하는 점이었습니다. 결과적으로 메인페이지와 서브페이지의 제품 레이아웃을 다르게 수정할 수 있었으며 일반인이 제품을 추가하는 EC호스팅의 기능을 그대로 살릴 수 있었습니다. 본 프로젝트를 통해 CSS3의 <code>transition</code>,
+                        <code>transfrom</code> 기능을 얼마나 다양하게 활용할 수 있는지 확인할 수 있었습니다.
+                    </p>
+                    <hr>
+                </article>
+                <div class="btn_wrap">
+                    <a href="http://pcswer1.cafe24.com/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                </div>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Happy Kids<span class="typo_24">Gnuboard Web Development</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf03_01.png" alt="해피키즈 어학원 사이트 예시">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>XHTML, CSS2, CSS3</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design &amp; Code - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>ELAPSED TIME</dt>
+                    <dd class="">9 Days</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator, Brackets, Gnuboard</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://chhappykids.com" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">XHTML, CSS2를 사용한<span><strong class="highlightBar2">그누보드5 웹사이트</strong></span></h3>
+                    <p class="typo_kor_noto">한국디지털기업협회에서 수강중인 UI/UX기반 웹퍼블리셔 양성과정 에서 진행된 1차 프로젝트 입니다. XHTML과 CSS2를 기반으로 그누보드5를 활용해 제작하였습니다. 사이트는 지인이 운영하는 어학원을 홍보 및 효율적인 운영을 위해 기획되었으며, 사이트에 사용된 로고와 일러스트는 모두 직접 디자인하였습니다.</p>
+                    <hr>
+                </article>
+                <article>
+                    <!--                    <img class="img-responsive" src="img/pf01_03.png" alt="그린플러그드 페스티벌 웹사이트 웹, 태블릿, 스마트폰 디자인 목업">-->
+                    <!--                    <h4 class="typo_kor_noto">"모든 스크린에서 동일한 정보 제공"</h4>-->
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">PLANNING</span>
+                    <h3 class="typo_kor_noto">아기자기하지만 세련된<span><strong class="highlightBar2">어학원 웹사이트</strong></span></h3>
+                    <p class="typo_kor_noto">첫 프로젝트였던 만큼 예상치 못했던 문제점들이 많이 있었습니다. 대부분이 게시판을 통해 업로드 되는 사진들의 개인정보보호, 스팸성 게시글등 이었는데 이런 문제점들은 그누보드5의 회원관리 시스템과 캡차 시스템으로 보완할 수 있었습니다.
+                        <span>전체적인 브랜드 느낌을 살리기 위해 기존 인테리어 디자인에서 사용되었던 일러스트를 그대로 웹사이트로 옮겨왔습니다. 네비게이션 또한 BI에 사용된 물감을 사용하였습니다.</span></p>
+                    <hr>
+                </article>
+                <article>
+                    <!--                    <img class="img-responsive" src="img/pf01_04.png" alt="모바일 화면 메뉴, 소개, 티켓 화면 사진">-->
+                    <!--                    <h4 class="typo_kor_noto">"좌측부터 메뉴화면&#40;checkbox&#41;, 소개화면&#40;line-clamp&#41;, 티켓화면&#40;svg&#41;"</h4>-->
+                </article>
+                <article>
+                    <span class="typo_eng pfLabel">DEVELOPMENT</span>
+                    <h3 class="typo_kor_noto">다양한 실험적인 시도,<span><strong class="highlightBar2">나름 성공적</strong></span></h3>
+                    <p class="typo_kor_noto">인테리어 디자인에 사용된 일러스트를 웹사이트에도 적용시키기 위해 <code>&lt;body&gt;</code>태그에 <code>background</code>속성으로 이미지를 고정시켜 놓았습니다. 메인페이지의 카드형 레이아웃은 각 요소들의 <code>float: left</code>와 <code>margin-top</code> 값을 조절해서 정렬할 수 있었습니다.
+                        <span>작업중 가장 곤란했던것은 폰트였습니다. 브랜드와 잘 어울리는 폰트를 찾다가 Dahong 폰트를 구매해서 사용하게 되었는데 IE에서는 <code>16px</code>이하 사이즈일때 렌더링이 되지 않는 현상을 발견하였고 이로 인해 메뉴를 이미지로 구성해야했습니다. 각 서브페이지를 구현할 때에는 페이지마다 다른 스타일의 레이아웃과 텍스트 정렬 스타일을 구현해보며 웹의 기본적인 요소인 <code>margin</code>, <code>padding</code>, <code>float</code>, <code>position</code>등의 이해도를 높일 수 있었습니다.</span>                        </p>
+                    <hr>
+                </article>
+                <div class="btn_wrap">
+                    <a href="http://chhappykids.com" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                </div>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Maru 180<span class="typo_24">Startup Incubator</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf04_01.png" alt="마루180 로고">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2013</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://maru180.com/pcindex.php" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">아산나눔재단의 스타트업 솔루션<span><strong class="highlightBar2">마루180</strong></span></h3>
+                    <p class="typo_kor_noto">아산나눔재단에서 운영중인 한국 스타트업 인큐베이터 Maru180의 로고 디자인입니다. 해외 공모전을 알아보던 중 우연히 참여하게 되었습니다. Maru의 의미는 산등성이의 가장 높은곳과 전통적인 가옥구조에서 방과 방 사이의 열린 공간을 뜻합니다. 이런 의미를 영문 M에 모두 담아보자는 생각으로 컨셉을 잡았고 결과적으로 산등성이의 모습과 두개의 방이 맞닿아 있는 모습을 디자인하게 되었고, 우측에 살짝 나온 1은 180의
+                        1번이자 최고가 되자는 뜻을 담고있습니다. 마루 180은 강남 역삼로 180에 위치해 있으며 현재 수많은 스타트업을 배출한 손에 꼽히는 스타트업 인큐베이터의 역할을 수행하고 있습니다.
+                    </p>
+                    <hr>
+                </article>
+                <!--                <a href="http://maru180.com/pcindex.php" target="_blank" class=" link_btn" role="button">사이트로 이동</a>-->
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Jackery<span class="typo_24">Mobile Accessories</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf05_01.png" alt="Jackery 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2013</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://www.jackery.com/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">프리미엄 외장 배터리<span><strong class="highlightBar2">Made in USA</strong></span></h3>
+                    <p class="typo_kor_noto">미국 프리미엄 외장 배터리 브랜드 로고 디자인 입니다. 외장 배터리의 특징처럼 '입을 수 있는' 느낌이 나는 로고를 디자인 하였습니다. 알파벳 J를 형상화한 모양으로, 왼쪽 상단에 있는 조그마한 화살표는 외장 배터리를 암시하며 두가지 모양이 하나가 됨으로써 비로소 완전한 스마트 기기가 된다는 컨셉으로 제작하였습니다.
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Handwerker<span class="typo_24">Handmade Furniture</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf06_01.png" alt="한트베르커 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://handwerker.co.kr/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">"가구를 만드는 시간은 짧지만<span><strong class="highlightBar2">그 사용은 길다"</strong></span></h3>
+                    <p class="typo_kor_noto">경기도 파주에 위치한 수제 가구 공방 로고 디자인 입니다. 한트베르커는 '장인'이라는 뜻의 독일어로, 간결하지만 전문성이 드러나는 타이포그래피를 디자인 하였습니다.
+                    </p>
+                    <hr>
+                </article>
+                <!--                <a href="http://handwerker.co.kr/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>-->
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Modeska<span class="typo_24">Office Accessories</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf07_01.png" alt="Modeska 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="https://www.modeska.com/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">경기도 파주에 위치한 수제 가구 공방 로고 디자인 입니다. 한트베르커는 '장인'이라는 뜻의 독일어로, 간결하지만
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Picture Block<span class="typo_24">Motion Pictures Studio</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf08_01.png" alt="Picture Block 로고 디자인">
+                <dl class="typo_eng">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://www.pictureblock.tv/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Beeye<span class="typo_24">Management Tool for Corporates</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf09_01.png" alt="Beeye 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <a href="https://www.mybeeye.com/" target="_blank" class=" link_btn" role="button">사이트로 이동</a>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Planetalk<span class="typo_24">Chatting Application Concept</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf10_01.png" alt="Planetalk 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Bonyeastie<span class="typo_24">Honey Mead</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf11_01.png" alt="Bonyeastie 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Atti<span class="typo_24">Modernized Han-bok Brand Concept</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf12_01.png" alt="Atti 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Cr8tive Outfitters<span class="typo_24">Fashion Outlet in Florida, USA</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf13_01.png" alt="Cr8tive Outfitters 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">Clippr<span class="typo_24">Application Branding Concept</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf14_01.png" alt="Picture Block 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <h2 class="pfTitle typo_eng">99Designs<span class="typo_24">99Designs Rebranding Concept</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf15_01.png" alt="Picture Block 로고 디자인">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Branding</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>CONTRIBUTION</dt>
+                    <dd class="">Design - 100%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>DATE OF PRODUCTION</dt>
+                    <dd class="">2015</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt>TOOLS</dt>
+                    <dd class="">Photoshop, Illustrator</dd>
+                </dl>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2"></strong></span></h3>
+                    <p class="typo_kor_noto">
+                    </p>
+                    <hr>
+                </article>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <!--            <a href="#" class="previews_btn" role="button"><span class="typo_24" data-icon="&#xe065;"></span></a>-->
+            <h2 class="pfTitle typo_eng">Fundingmoa<span class="typo_24">Crowd Funding Meta Platform</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf16_01.png" alt="펀딩모아 크라우드펀딩 메타 사이트">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Laravel, SASS, Git, Gulp, SMACSS, HTML5, CSS3, jQuery</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">ELAPSED TIME</dt>
+                    <dd class="">30 Days</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">CONTRIBUTION</dt>
+                    <dd class="">Company project - 50%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">TOOLS</dt>
+                    <dd class="">VS Code, Bit Bucket, AWS S3, Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://fundingmoa.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                    <a href="https://github.com/chanspark/portfolio_FundingMoa" target="_blank" class="link_btn" role="button">깃 저장소 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">입사 후 첫 프로젝트 <span><strong class="highlightBar2">크라우드펀딩 플랫폼</strong></span></h3>
+                    <p class="typo_kor_noto">
+                        2016년 8월 중순부터 기획, 디자인, 퍼블리싱을 맡아 약 3개월간 진행한 프로젝트 입니다. 초기 기획을 잡고 디자인과 퍼블리싱을 끝낸 후 기획자와 함께 팀을 이뤄 세부적인 요소를 정리하였습니다. 기획자와 기능들에 대한 협의가 이루어진 후 서버 및 데이터베이스 개발자를 통해 합의한 기능들을 구현하였습니다.
+                    </p>
+                    <hr>
+                </article>
+                <article></article>
+                <article>
+                    <span class="typo_eng pfLabel">REVIEW</span>
+                    <h3 class="typo_kor_noto"><span><strong class="highlightBar2">배울것도, 아까움도 </strong></span>많이 남긴 프로젝트</h3>
+                    <p class="typo_kor_noto">
+                        입사 후 배운 gulp, SASS를 사용해서 제작을 하였으며 SMACSS 방법론을 적용시켜 체계적인 css파일 및 class명 관리를 하려고 노력하였습니다. 또한 아직 익숙하지 않던 Javascript를 많이 연습해 볼 수 있는 계기가 된 프로젝트 였으며 특히 form validation을 도입하는데 많은 시간을 투자하였습니다. form이 가장 중요하게 사용된 곳은 기획자와 함께 의기투합해서 만든
+                        <a href="http://www.fundingmoa.kr/agree ">업체 업무제휴 양해각서 작성 페이지</a>입니다. 이때 작업하며 배운 기법들 덕분에 회원가입 form 작성시에는 작업을 좀 더 원활하고 완성도 있게 진행 할 수 있었습니다.
+                    </p>
+                    <p class="typo_kor_noto">
+                        반응형 작업 완료 후에는 백엔드 개발자분과 git을 사용한 협업을 진행하며 사이트를 하나씩 완성해 나갔습니다. 처음으로 git merge가 일어나고, conflict 이 발생했을때는 너무 당황스러워서 어쩔 줄 몰라하였습니다. 이때 처음으로 source tree와 같은 툴을 사용해보았고 CLI 사용법을 간단하게나마 익힐 수 있었습니다. 또한 개발자분이 작성한 코드를 보며 앞으로 퍼블리싱을 진행할때 어떠한 방식으로 하는게 효율적인지에 대해서도 배울
+                        수 있었습니다.
+                    </p>
+                    <p class="typo_kor_noto">
+                        Laravel과 SASS를 사용한 소스코드는 깃허브 저장소에서 확인하실 수 있습니다.
+                    </p>
+                    <!--<hr>-->
+                </article>
+
+                <div class="btn_wrap">
+                    <a href="http://fundingmoa.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                    <a href="https://github.com/chanspark/portfolio_FundingMoa" target="_blank" class="link_btn" role="button">깃 저장소 이동</a>
+                </div>
+            </article>
+        </section>
+        <section class="pfSlide hide">
+            <a href="#" class="close_btn" role="button"><span class="typo_32" data-icon="&#xe082;"></span></a>
+            <!--            <a href="#" class="previews_btn" role="button"><span class="typo_24" data-icon="&#xe065;"></span></a>-->
+            <h2 class="pfTitle typo_eng">Ivly<span class="typo_24">Kid's Mall Meta Platform</span></h2>
+            <article class="pfContents container">
+                <img class="img-responsive" src="img/pf17_01.png" alt="아이블리 유아동복 쇼핑몰 메타 사이트">
+                <dl class="typo_eng col">
+                    <dt>SKILLS</dt>
+                    <dd>Laravel, SASS, Git, Gulp, BEM + SMACSS, HTML5, CSS3, jQuery</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">ELAPSED TIME</dt>
+                    <dd class="">35 Days</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">CONTRIBUTION</dt>
+                    <dd class="">Company project - 35%</dd>
+                </dl>
+                <dl class="typo_eng col">
+                    <dt class="">TOOLS</dt>
+                    <dd class="">VS Code, Git Hub, AWS S3, Photoshop, Illustrator</dd>
+                </dl>
+                <div class="btn_wrap">
+                    <a href="http://ivly.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                    <a href="https://github.com/chanspark/portfolio_Ivly" target="_blank" class="link_btn" role="button">깃 저장소 이동</a>
+                </div>
+                <article>
+                    <span class="typo_eng pfLabel">BRIEFING</span>
+                    <h3 class="typo_kor_noto">맘들의 쇼핑고민을 단축해줄 <span><strong class="highlightBar2">유아동복 메타 사이트</strong></span></h3>
+                    <p class="typo_kor_noto">
+                        2016년 12월부터 진행중인 웹 플랫폼 서비스 프로젝트 입니다. 기존에 완성된 앱 디자인을 웹에 맞게 새롭게 디자인하고 퍼블리싱을 하였습니다. 앱을 기준으로 제작된 기획서로 인해 기획자와 웹 UI & UX 에 대해서 많은 의논을 거쳤습니다. 현재는 반응형 웹까지 구현 되었으며 백 엔드 개발이 완료되는 시점에 서비스를 런칭할 계획입니다.
+                    </p>
+                    <hr>
+                </article>
+                <article></article>
+                <article>
+                    <span class="typo_eng pfLabel">REVIEW</span>
+                    <h3 class="typo_kor_noto">만족스런 사이트, <span><strong class="highlightBar2">아까웠던 팀워크</strong></span></h3>
+                    <p class="typo_kor_noto">
+                        앱 디자인을 웹 UI&UX에 맞춰 변환시키는 작업은 매우 새로운 도전이었습니다. 또한 모바일 웹을 고려하여 디자인 및 개발을 진행해야하는 점이 있어 모바일화면에서는 기존 앱 디자인과 유사하게 나타나도록 작업하였습니다. 개발을 진행하는데 있어서는 기존의 float 레이아웃을 대체할 생각으로 flexbox 속성을 이용해 사이트 전체 레이아웃을 잡아보았습니다. 하지만 크로스브라우징 작업중 IE9이하는 flexbox를 지원하지 않는다는 사실을 깨닫게 되었습니다.
+                        이를 통해 새로운 기술을 슥듭하고, 트렌드에 맞춰 사이트를 개발하는것도 좋지만, 항상 사용자들의 편의성을 우선시해야한다는 점을 배웠습니다.
+                    </p>
+                    <p class="typo_kor_noto">
+                        프로젝트를 진행함에 있어서 가장 힘들었던점은 이미지가 깨지지 않고 웹과 모바일에서 잘 보여야 하며, 다양한 사이즈의 이미지들이 동일하게 나타나도록 조정을 해야했던 점이었습니다. 배너 사이즈, 사용자가 업로드하는 이미지의 최소 사이즈 등을 일일이 점검해야 하였으며, 웹 제작에는 항상 수많은 변수가 있다는 점을 다시 한번 깨닫게 해줬습니다.
+                    </p>
+                    <p class="typo_kor_noto">
+                        또한 이번 프로젝트에서는 앱 개발자와 앱 디자이너까지 총 6명의 인원이 팀을 꾸려서 진행하게 되었는데, 상호간 커뮤니케이션 문제가 많이 발생하고, 기획이 계속 변경이 되는 바람에 개발단계에서 상당히 많은 시간을 들였습니다. 잘못된 커뮤니케이션으로 인해 어떤 일이 발생할 수 있는지 알게 된 이번 프로젝트로 인해 원활한 소통의 중요성에 대해 깨달을 수 있었습니다.
+                    </p>
+                    <p class="typo_kor_noto">
+                        Laravel과 SASS를 사용한 소스코드는 깃허브 저장소에서 확인하실 수 있습니다.
+                    </p>
+                    <!--<hr>-->
+                </article>
+                <div class="btn_wrap">
+                    <a href="http://ivly.kr/" target="_blank" class="link_btn" role="button">사이트로 이동</a>
+                    <a href="https://github.com/chanspark/portfolio_Ivly" target="_blank" class="link_btn" role="button">깃 저장소 이동</a>
+                </div>
+            </article>
+        </section>
+        <!--푸터 영역입니다.-->
+        <footer class="col-md-12">
+            <a href="#" id="goTop"><span class="typo_32" data-icon="&#xe078;"></span></a>
+            <!--저작권 영역입니다.-->
+            <strong class="copyright">COPYRIGHT 2016 CHAN SOO PARK. ALL RIGHTS RESERVED</strong>
+            <em>사이트 내 모든 디자인 및 소스코드에 대한 권리는 해당 저작권자에게 있습니다. <span>
+타인의 저작물을 불법적으로 이용시에는 제재가 가해질 수 있습니다.</span></em>
+        </footer>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+<!---->
+<!--jQuery plugin credits-->
+<!--Perfect Scroll JS plugin by noraesae https://github.com/noraesae/perfect-scrollbar-->
+<!--Perfect Scroll JS is under The MIT License (MIT) Copyright (c) 2016 Hyunje Alex Jun and other contributors.-->
+<!---->
+
+</html>

@@ -1,0 +1,1135 @@
+@charset "utf-8";
+
+/* Coded by Chans */
+
+
+/* 메인 스타일에 적용되는 CSS 입니다. */
+
+
+/*Google Web Fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,300);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*a tags reset*/
+
+a:link,
+a:visited,
+a:link:active,
+a:visited:active {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+
+/*어떤 브라우저/기기로 접속해도 100% 꽉 채우도록 설정*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*마우스 드래그시 하이라이트 색상 변경*/
+
+::-moz-selection {
+    background: #f6303e;
+}
+
+::selection {
+    background: #f6303e;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*font class 설정*/
+
+body .typo_kor {
+    font-family: 'Typo_SsangmunDong_B', sans-serif;
+    color: #2b2b2b;
+}
+
+body .typo_kor_noto {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #2b2b2b;
+}
+
+body .typo_eng {
+    font-family: 'Work Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+body .typo_b {
+    font-size: 50px;
+    color: #f6303e;
+    transition: all 1s;
+}
+
+body .typo_m {
+    font-size: 40px;
+}
+
+body .typo_s {
+    font-size: 34px;
+    transition: all 1s;
+}
+
+body .typo_32 {
+    font-size: 32px;
+}
+
+body .typo_28 {
+    font-size: 28px;
+}
+
+body .typo_24 {
+    font-size: 24px;
+}
+
+body .typo_18 {
+    font-size: 18px;
+}
+
+body .typo_20 {
+    font-size: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/*헤더 시작*/
+
+header {
+    height: 100%;
+    z-index: 1;
+}
+
+
+/*헤더 네비게이션 시작*/
+
+.mob_nav {
+    display: none;
+}
+
+nav {
+    margin-top: 80px;
+}
+
+nav ul li {
+    height: 60px;
+    width: 170px;
+    position: relative;
+    transition: all 1s;
+}
+
+nav ul li a {
+    display: block;
+    line-height: 60px;
+}
+
+
+/*메뉴 호버시 밑줄이 생성되는 효과*/
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: linear-gradient(transparent 45%, #f6303e 46%, #f6303e 85%, transparent 86%);
+}
+
+
+/*메뉴 영역 빨간색 하이라이트 바*/
+
+.highlightBar {
+    background: linear-gradient(transparent 45%, #f6303e 46%, #f6303e 85%, transparent 86%);
+}
+
+
+/*about 영역 핑크빛 하이라이트 바*/
+
+.highlightBar2 {
+    background: linear-gradient(transparent 55%, #ff8e96 56%, #ff8e96 94%, transparent 95%);
+}
+
+
+/*헤더 네비게이션 끝*/
+
+
+/*헤더 텍스트 애니메이션 시작*/
+
+aside {
+    margin-top: 50px;
+}
+
+aside span {
+    color: #2b2b2b;
+}
+
+#textAnimation {
+    padding-right: 5px;
+}
+
+
+/*반짝이는 커서 애니메이션*/
+
+.blinkingCursor {
+    padding-bottom: 15px;
+    font-weight: 100;
+    font-size: 55px;
+    color: #666;
+    font-family: sans-serif;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+
+/*헤더 끝*/
+
+
+/*메인영역 시작*/
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+.tBg {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    z-index: 1;
+}
+
+
+/* Portfolio 영역 시작*/
+
+main #portfolio {
+    float: left;
+}
+
+main #portfolio h2 {
+    margin: 60px auto 70px;
+    text-align: center;
+}
+
+main #portfolio ul li {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+main #portfolio .portfolioDesc {
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    height: 47%;
+    padding: 15px 15px 0 30px;
+    transition: all 0.4s;
+}
+
+main #portfolio .portfolioLabel {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 30px;
+    padding: 0 8px;
+    background: rgba(255, 255, 255, 0.85);
+    font: 500 16px/30px 'Work Sans', sans-serif;
+    color: #2b2b2b;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+main #portfolio .view_btn {
+    color: #2b2b2b;
+    position: absolute;
+    bottom: -310px;
+    right: 30px;
+    background: transparent;
+    border: none;
+    height: 32px;
+    padding: 0;
+    transition: all 0.4s;
+}
+
+main #portfolio dt {
+    font: 12px/20px 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: rgba(119, 119, 119, 0.6);
+}
+
+main #portfolio dd {
+    font: 18px/24px 'Work Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+
+/* Portfolio 영역 종료*/
+
+
+/* Portfolio Slide 영역 시작*/
+
+main .pfSlide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+    top: 0;
+    right: -3000px;
+    transition: all 0.3s;
+    overflow: hidden;
+    z-index: 10;
+}
+
+main .hide {
+    display: none;
+}
+
+main .pfSlide .close_btn {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: #2b2b2b;
+    background: rgba(255, 255, 255, 0.5);
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+main .pfSlide .close_btn span {
+    line-height: 42px;
+}
+
+main .pfTitle {
+    max-width: 100%;
+    height: 230px;
+    /*min-height: 35%;*/
+    color: #fff;
+    padding-top: 2%;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+main .pfTitle>span {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*portfolio slide 타이틀 배경화면*/
+
+main .pfSlide:nth-of-type(2) .pfTitle {
+    background: #3aa730;
+}
+
+main .pfSlide:nth-of-type(3) .pfTitle {
+    background: #383838;
+}
+
+main .pfSlide:nth-of-type(4) .pfTitle {
+    background: #e54993;
+}
+
+main .pfSlide:nth-of-type(5) .pfTitle {
+    background: #00525d;
+}
+
+main .pfSlide:nth-of-type(6) .pfTitle {
+    background: #e9510e;
+}
+
+main .pfSlide:nth-of-type(7) .pfTitle {
+    background: #232220;
+}
+
+main .pfSlide:nth-of-type(8) .pfTitle {
+    background: #8BC53F;
+}
+
+main .pfSlide:nth-of-type(9) .pfTitle {
+    background: #1693a5;
+}
+
+main .pfSlide:nth-of-type(10) .pfTitle {
+    background: #ed7100;
+}
+
+main .pfSlide:nth-of-type(11) .pfTitle {
+    background: #30bb92;
+}
+
+main .pfSlide:nth-of-type(12) .pfTitle {
+    background: #2b4880;
+}
+
+main .pfSlide:nth-of-type(13) .pfTitle {
+    background: #56518b;
+}
+
+main .pfSlide:nth-of-type(14) .pfTitle {
+    background: #191919;
+}
+
+main .pfSlide:nth-of-type(15) .pfTitle {
+    background: #11b4d9;
+}
+
+main .pfSlide:nth-of-type(16) .pfTitle {
+    background: #35476b;
+}
+
+main .pfSlide:nth-of-type(17) .pfTitle {
+    background: #295ee6;
+}
+
+main .pfSlide:nth-of-type(18) .pfTitle {
+    background: #ff7d5f;
+}
+
+main .pfContents img {
+    margin-top: -140px;
+}
+
+main .pfContents dt {
+    font: 700 12px/20px 'Work Sans', sans-serif;
+    color: rgba(119, 119, 119, 0.6);
+}
+
+main .pfContents dd {
+    font: 500 18px/24px 'Work Sans', sans-serif;
+    letter-spacing: -0.015em;
+    color: #2b2b2b;
+}
+
+main .pfContents article {
+    width: 65%;
+    margin: 0 auto 130px;
+}
+
+main .pfContents article:nth-of-type(even) {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+main .pfContents h3 {
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 45px;
+    margin: 10px 0 40px;
+}
+
+main .pfContents h3 span {
+    display: block;
+}
+
+main .pfContents h3 strong {
+    font-weight: 200;
+}
+
+main .pfContents article p {
+    font-size: 11pt;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: .8px;
+}
+
+main .pfContents article p a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+main .pfContents article p span {
+    margin-top: 20px;
+    display: block;
+}
+
+main .pfContents article img {
+    margin-top: 0;
+}
+
+main .pfContents article hr {
+    border-top: 3px double #f1f1f1;
+    margin: 70px 0 0;
+}
+
+main .pfContents article h4 {
+    font-size: 11pt;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(119, 119, 119, 0.6);
+}
+
+main .pfLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(119, 119, 119, 0.6);
+    display: block;
+}
+
+
+/*portfolio slide 4가지 항목 정렬 방식*/
+
+main .pfContents .col {
+    float: left;
+    width: 25%;
+}
+
+main .pfContents .col1 {
+    /*width: 25%;*/
+}
+
+main .pfContents .reset {
+    /*margin-top: -44px;*/
+}
+
+main .pfContents .col2 {
+    /*margin-left: 25%;*/
+    /*width: 25%;*/
+}
+
+main .pfContents .col3 {
+    /*margin-left: 50%;*/
+    /*width: 25%;*/
+}
+
+main .pfContents .col4 {
+    /*margin-left: 75%;*/
+    /*width: 25%;*/
+}
+
+
+/*버튼 transition 효과*/
+
+main .btn_wrap {
+    text-align: center;
+    clear: both;
+}
+
+main .link_btn {
+    border: 1px solid #2b2b2b;
+    border-radius: 0;
+    font: 14px/30px 'Noto Sans KR', sans-serif;
+    width: 120px;
+    height: 40px;
+    margin: 30px auto 130px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+    padding-top: 2px;
+    clear: both;
+}
+
+main .link_btn:hover {
+    -webkit-box-shadow: inset 120px 1px 0px 0 #2b2b2b;
+    -moz-box-shadow: inset 120px 1px 0px 0 #2b2b2b;
+    box-shadow: inset 120px 1px 0px 0 #2b2b2b;
+    color: #fff;
+}
+
+main .pfContents {
+    margin-bottom: 100px;
+}
+
+
+/* Portfolio Slide영역 종료*/
+
+
+/* About영역 시작*/
+
+main #about {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*about영역 이미지 필터(흑백) [ie8에서는 효과 없음!]*/
+
+main #about figure {
+    background-image: url(../img/about_p1.jpg);
+    background-size: cover;
+    transition: all 3s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
+
+
+/*이미지 호버시 필터 해제*/
+
+main #about figure:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+
+main #about article {
+    float: right;
+    background: #fff;
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+}
+
+main #about .bgPics {
+    width: 50%;
+    height: 100%;
+}
+
+main #about .profilePic {
+    width: 170px;
+    height: 170px;
+    margin: 20% auto 0;
+}
+
+
+/*제목*/
+
+main #about article h2 {
+    text-align: center;
+}
+
+main #about article h2 span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: -0.07em;
+    margin-bottom: 15%;
+}
+
+
+/*소개글*/
+
+main #about article p {
+    width: 400px;
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 34px;
+}
+
+main #about article p span {
+    display: block;
+}
+
+main #about article strong {
+    font-weight: 300;
+}
+
+
+/*버튼 정렬*/
+
+main #about article ul {
+    margin: 30px auto 0;
+    width: 280px;
+}
+
+main #about article ul li {
+    float: left;
+    margin: -30px 10px 0;
+}
+
+
+/* About 영역 종료*/
+
+
+/* Skills 영역 시작*/
+
+main #skills {
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    transition: all 1s;
+    opacity: 0;
+    margin: 100px 0 200px;
+}
+
+
+/*능력치 영역 정렬*/
+
+main #skillbars {
+    float: left;
+    width: 70%;
+    padding: 0 5%;
+    background: #fff;
+}
+
+main #skillbars h2 {
+    display: block;
+    margin-bottom: 30px;
+}
+
+main #skillbars span {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+main #skillbars .skillbars_title {
+    color: #2b2b2b;
+    font-size: 16px;
+    margin-top: -15px;
+    display: block;
+}
+
+main #skillbars .skillbars_value {
+    top: -31px;
+    left: 2%;
+    color: #fff;
+}
+
+
+/*능력치 바 색상 영역*/
+
+main #skillbars progress {
+    background-color: #f3f3f3;
+    border: 0;
+    width: 100%;
+    height: 30px;
+}
+
+main #skillbars progress::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+main #skillbars progress::-webkit-progress-value {
+    background-color: #f6303e;
+}
+
+main #skillbars progress::-moz-progress-bar {
+    background-color: #f6303e;
+}
+
+main #skillbars progress::-ms-progress-bar {
+    color: #f6303e;
+}
+
+main #skillbars progress::-ms-fill {
+    color: #f6303e;
+}
+
+
+/*경험치 영역 제목 및 내용 정렬*/
+
+main #skills dl {
+    width: 30%;
+    float: right;
+    position: relative;
+    margin-top: -1%;
+}
+
+main #skills dt {
+    color: rgba(119, 119, 119, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    text-align: left;
+    left: 100px;
+}
+
+main #skills dt:nth-of-type(1) {
+    top: 40px;
+}
+
+main #skills dt:nth-of-type(2) {
+    top: 140px;
+}
+
+main #skills dt:nth-of-type(3) {
+    top: 245px;
+}
+
+main #skills dt:nth-of-type(4) {
+    top: 345px;
+}
+
+main #skills dt:nth-of-type(5) {
+    top: 445px;
+    left: 185px;
+}
+
+main #skills dt span {
+    color: #f6303e;
+}
+
+main #skills dd {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+
+/*Skills 영역 종료*/
+
+
+/*Contact 영역 시작*/
+
+main #contact {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+main #contact h2 {
+    margin: 60px auto 70px;
+}
+
+main #contact h4 {
+    font-weight: 300;
+    text-align: center;
+}
+
+main #contact article {
+    width: 45%;
+    clear: both;
+    border: 5px solid #2b2b2b;
+    padding: 30px;
+    text-align: left;
+    overflow: auto;
+    margin: 0 auto 30px;
+}
+
+main #contact article form {
+    margin-top: 30px;
+}
+
+main #contact article .alert_top {
+    clear: both;
+    padding-top: 30px;
+}
+
+main #contact input {
+    float: left;
+    width: 75%;
+    height: 40px;
+    font-size: 16px;
+}
+
+main .contact_btn {
+    border: 3px solid #2b2b2b;
+    border-radius: 0;
+    font: 14px/30px 'Noto Sans KR', sans-serif;
+    width: 20%;
+    height: 40px;
+    float: right;
+    display: block;
+    text-align: center;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+main .contact_btn:hover {
+    border-color: #f6303e;
+}
+
+main #contact article:nth-of-type(2) {
+    position: relative;
+}
+
+main #contact #contact_logo {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+
+/*연락처 내용*/
+
+main #contact article dl {
+    position: relative;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+main #contact dt {
+    margin-top: 15px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: rgba(119, 119, 119, 0.6);
+}
+
+main #contact dd {
+    margin-bottom: 30px;
+    background: #2b2b2b;
+    transition: all 1s;
+}
+
+main #contact dd:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+
+/*메인영역 종료*/
+
+
+/*푸터 영역 시작*/
+
+main footer {
+    text-align: center;
+    height: 230px;
+    padding-top: 20px;
+    clear: both;
+}
+
+main footer #goTop {
+    width: 32px;
+    height: 32px;
+}
+
+main footer>a span {
+    color: #f6303e;
+}
+
+main footer strong {
+    display: block;
+    margin: 30px 0 20px;
+}
+
+main footer em span {
+    display: block;
+}
+
+
+/*반응형 media query  영역*/
+
+
+/*중형 사이즈 모니터 화면 - 1400~1789px*/
+
+@media screen and (min-width: 1400px) and (max-width: 1789px) {
+    body .typo_b {
+        font-size: 40px;
+    }
+    .blinkingCursor {
+        font-size: 42px;
+    }
+}
+
+
+/*소형 사이즈 모니터 화면 - 1280~1399px*/
+
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+    body .typo_b {
+        font-size: 34px;
+    }
+    .blinkingCursor {
+        font-size: 36px;
+    }
+    main #contact #contact_logo {
+        height: 30px;
+    }
+}
+
+
+/*노트북화면 - 996~1279px*/
+
+@media screen and (min-width: 996px) and (max-width: 1279px) {
+    body .typo_s {
+        font-size: 26px;
+    }
+    body .typo_b {
+        font-size: 26px;
+    }
+    .blinkingCursor {
+        font-size: 28px;
+    }
+    nav {
+        margin-top: 80px;
+    }
+    nav ul li {
+        height: 50px;
+    }
+    nav ul li a {
+        line-height: 40px;
+    }
+}
+
+
+/*태블릿 및 모바일화면 - 995px이하*/
+
+@media screen and (max-width: 995px) {
+    header aside {
+        display: none;
+    }
+    header {
+        position: fixed !important;
+        height: auto;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    nav {
+        margin-top: 0;
+        text-align: center;
+        display: none;
+        background: transparent;
+    }
+    nav ul li {
+        margin: 0 auto;
+    }
+    .container-fluid {
+        padding-left: 0;
+    }
+    /*    모바일 메뉴 영역*/
+    .mob_nav {
+        display: block;
+        font-size: 42px;
+        color: #2b2b2b;
+        position: fixed;
+        top: 12px;
+        right: 15px;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    main {
+        padding-top: 100px;
+    }
+    /*    portfolio 영역*/
+    #portfolio h2 span {
+        display: block;
+    }
+    main .pfContents dl {
+        text-align: center;
+    }
+    main .pfContents .col {
+        /*float: left;*/
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    main .pfContents .col1 {
+        /*width: 100%;*/
+    }
+    main .pfContents .reset {
+        /*margin-top: 20px;*/
+    }
+    main .pfContents .col2 {
+        /*margin-left: 0%;*/
+        /*width: 100%;*/
+    }
+    main .pfContents .col3 {
+        /*margin-left: 0%;*/
+        /*width: 100%;*/
+    }
+    main .pfContents .col4 {
+        /*margin-left: 0%;*/
+        /*width: 100%;*/
+    }
+    main .pfContents article {
+        /*width: 80%;*/
+        /*        margin: 130px auto;*/
+    }
+    /*    about 영역*/
+    #about .bgPics {
+        display: none;
+    }
+    main #about article {
+        float: none;
+        width: 100%;
+    }
+    main #about article p {
+        width: auto;
+    }
+    main #skills {
+        height: auto;
+        padding-top: 20%;
+        margin: 100px 0 0;
+    }
+    main #skillbars {
+        float: none;
+        width: 100%;
+    }
+    main #experiences {
+        width: 100%;
+        padding: 0 5%;
+    }
+    main #skills dl {
+        width: 100%;
+        float: none;
+    }
+    main #contact {
+        margin-bottom: 200px;
+    }
+    main #contact article {
+        width: 100%;
+    }
+    footer {
+        margin-bottom: 100px;
+    }
+}
+
+
+/*텍스트 애니메이션 블링킹 효과*/
+
+@keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #666;
+    }
+}
+
+@-moz-keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #666;
+    }
+}
+
+@-webkit-keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #666;
+    }
+}
+
+@-ms-keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #666;
+    }
+}
+
+@-o-keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: #666;
+    }
+}
